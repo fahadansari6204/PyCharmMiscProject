@@ -179,5 +179,8 @@ Loops in Python
 import datetime
 
 print(datetime.datetime.now())
-
+a = 2
+b = 3
+c = (a + b)
+print(c)
 
