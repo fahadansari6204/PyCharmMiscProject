@@ -176,12 +176,6 @@ Loops in Python
 '''
 
 '''
-import datetime
 
-print(datetime.datetime.now())
-a = 2
-b = 4
 
-c = (a + b)
-print(c)
 

@@ -97,3 +97,8 @@ if num % 2 == 0:
 else:
     print("Odd Number")
 """
+"""
+import datetime
+
+print(datetime.datetime.now())
+"""
