@@ -277,6 +277,7 @@ Problem 5 - Exercise 12: Display Fibonacci series up to 10 terms.
             The first two numbers are 0 and 1. For example, 0, 1, 1, 2, 3, 5, 8, 13, 21.
              The next number in this series above is 13+21 = 34
 '''
+"""
 # Initialize the first two terms of the Fibonacci sequence
 term1 = 0
 term2 = 1
@@ -298,7 +299,7 @@ for i in range(2, 10):
     # Update the values of term1 and term2 for the next iteration
     term1 = term2
     term2 = next_term
-
+"""
 
 
 
