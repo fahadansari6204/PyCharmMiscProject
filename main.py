@@ -273,10 +273,31 @@ while choice != 4:
 """
 '''
 Problem 5 - Exercise 12: Display Fibonacci series up to 10 terms.
-Note: The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it. 
-      The first two numbers are 0 and 1. For example, 0, 1, 1, 2, 3, 5, 8, 13, 21. The next number in this series above is 13+21 = 34
+            Note: The Fibonacci Sequence is a series of numbers. The next number is found by adding up the two numbers before it.
+            The first two numbers are 0 and 1. For example, 0, 1, 1, 2, 3, 5, 8, 13, 21.
+             The next number in this series above is 13+21 = 34
 '''
+# Initialize the first two terms of the Fibonacci sequence
+term1 = 0
+term2 = 1
 
+# Print the first term
+print(term1, end=' ')
+
+# Print the second term
+print(term2, end=' ')
+
+# Loop to calculate and print the remaining terms
+for i in range(2, 10):
+    # Calculate the next term in the sequence
+    next_term = term1 + term2
+
+    # Print the next term
+    print(next_term, end=' ')
+
+    # Update the values of term1 and term2 for the next iteration
+    term1 = term2
+    term2 = next_term
 
 
 
