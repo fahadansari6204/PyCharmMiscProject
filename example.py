@@ -135,3 +135,42 @@ while i <= 3:
 
     i = i + 1
 """
+'''
+Output:
+
+* * *
+* * *
+* * *
+'''
+"""
+#for loop----
+for i in range(3):
+    for j in range(3):
+        print("*", end=" ")
+    print()
+
+#while loop
+i = 1
+
+while i <= 3:
+
+    j = 1
+
+    while j <= 3:
+        print("*", end=" ")
+        j += 1
+
+    print()
+    i += 1
+"""
+
+
+
+
+
+
+
+
+
+
+
